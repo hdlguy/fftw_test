@@ -6,7 +6,7 @@
 int main()
 {
 
-    size_t N = 64*1024*1024;
+    size_t N = 16*1024*1024;
     double pi = std::acos(-1);
     fftw_complex j = {0.0, 1.0};
 
@@ -35,7 +35,7 @@ int main()
     fftw_execute(p);
     time1 = clock();
     exec_time = (double)(time1-time0)/CLOCKS_PER_SEC;
-    printf("\nfft execution time = %lf\n", exec_time);
+    printf("\nfft execution time = %lf.  N = %d\n", exec_time, N);
 
 
 /*
