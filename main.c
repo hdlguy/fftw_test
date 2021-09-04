@@ -35,7 +35,7 @@ int main()
     fftw_execute(p);
     time1 = clock();
     exec_time = (double)(time1-time0)/CLOCKS_PER_SEC;
-    printf("\nfft execution time = %lf.  N = %d\n", exec_time, N);
+    printf("\nfft execution time = %lf.  N = %ld\n", exec_time, N);
 
 
 /*
