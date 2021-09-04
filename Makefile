@@ -5,7 +5,7 @@ LIB_FLAGS = -lfftw3
 INCLUDES= -I. -I/usr/local/include/
 DEPS = Makefile
 
-OPT = -O0
+OPT = -O3
 
 CXXFLAGS = $(DEBUG) $(FINAL) $(OPT) $(EXTRA_OPT)
 
