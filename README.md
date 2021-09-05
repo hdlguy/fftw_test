@@ -6,7 +6,7 @@ After some experimentation a benchmark transform was selected.
 * 1D
 * Complex
 * Double precision
-* Size = 64*1024*1024 points
+* Size = 64x1024x1024 points
 
 Four hardware platforms were tested.
 * Intel Core i9-9900K under Linux => 0.64 seconds
