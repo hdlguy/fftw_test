@@ -15,6 +15,8 @@ Four hardware platforms were tested.
 * Avnet Microzed SOM with XCZU3EG processro (dual Arm A7, 32 bit DDR4) => 16.4 seconds
 
 ## Summary
-The Intel is 15 times faster than the fastest Arm processor. No special settings were used to control optimization. My guess is that fftw automatically uses the AVX SIMD extensions on Intel processors giving it a huge advantage. The Arm NEON extensions do not handle double precision floating point.
+The Intel is 15 times faster than the fastest Arm processor. 
+The i9 has twice as many processors and 5 times the clock speed so I expected a factor of 10 advantage. 
+No special settings were used to control optimization but it is possible that fftw automatically uses the AVX SIMD extensions on Intel processors giving it an additional advantage. The Arm NEON extensions do not handle double precision floating point.
 
 The test will be run on an Intel i3-11600K.
