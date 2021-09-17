@@ -10,10 +10,11 @@ After some experimentation a benchmark transform was selected.
 
 Four hardware platforms were tested.
 * Intel Core i9-9900K under Linux => 0.64 seconds
+* 11th Gen Intel Core i7-1185G7 @ 3.00GHz => 0.72 seconds
+* 11th Gen Intel Core i3-1115G4 @ 3.00GHz × 4 => 0.9 seconds
 * Xilinx ZCU104 evaluation board with XCZU7EV processor (quad Arm A53, 64bit DDR4) => 9.5 seconds
 * Avnet Ultrazed SOM with XCZU3EG processor (quad Arm A53, 32 bit DDR4) => 11.6 seconds
 * Avnet Microzed SOM with XCZU3EG processro (dual Arm A7, 32 bit DDR4) => 16.4 seconds
-* 11th Gen Intel® Core™ i3-1115G4 @ 3.00GHz × 4 => 0.9 seconds
 
 ## Summary
 The Intel is 15 times faster than the fastest Arm processor. 
